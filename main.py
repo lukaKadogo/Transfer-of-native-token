@@ -5,7 +5,7 @@ from client import Client
 address_out = input("Введите адрес отправителя: ")
 private_key = input("Введите приватный ключ отправителя: ")
 address_in = input("Введите адрес получателя:  ")
-amount_eth = input("Введите количество для отправки (ETH): ")
+amount_eth = float(input("Введите количество для отправки (ETH): "))
 
 rpc_url = "https://ethereum-sepolia-rpc.publicnode.com"
 
